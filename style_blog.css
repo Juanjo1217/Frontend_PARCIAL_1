@@ -17,7 +17,9 @@ body {
     flex: 1;
     display: grid;
     grid-template-areas: 
-    "post";
+    "header"
+    "post"
+    "footer";
     gap: 20px;
     padding: 20px;
     max-width: 1200px;
@@ -27,6 +29,7 @@ body {
 
 
 .header {
+    grid-area: "header";
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -38,6 +41,7 @@ body {
 }
 
 .post {
+    grid-area: "post";
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -75,6 +79,7 @@ body {
 }
 
 .footer {
+    grid-area: "footer";
     background-color: #fff;
     padding: 20px;
     text-align: center;
