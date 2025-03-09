@@ -1,59 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="homepage.css">
     <title>Home</title>
 </head>
+
 <body>
     <main class="main">
         <header class="header">
-                <nav>
-                    <a href="">Works</a>
-                    <a href="">Blog</a>
-                    <a href="">Contact</a>
-                </nav>
+            <nav>
+                <a href="">Works</a>
+                <a href="">Blog</a>
+                <a href="">Contact</a>
+            </nav>
+            <div class="button-responsive">
                 <div>
+                    <input id="checkbox" type="checkbox">
+                    <label class="toggle" for="checkbox">
+                        <div id="bar1" class="bars"></div>
+                        <div id="bar2" class="bars"></div>
+                        <div id="bar3" class="bars"></div>
+                    </label>
 
-                    <div class="photo_portrait">
-                        <picture>
-                            <img src="" alt="">
-                        </picture>
-                    </div>
-
-
-                    <div class="intro">
-                        <H1>
-                            Hi, I'm <span>John Doe</span>
-                        </H1>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab impedit dicta et aliquid a illum, quos cumque dolorum unde veniam libero molestiae repellat! Quis unde veritatis numquam nam modi fuga.
-                        </p>
-        
-                        <a href="">
-                            Download Resume
-                        </a>
-                    </div>
-
-                
-
-                </div>
-        </header>
-        
-        <section class="recent">
-            <div><h1>Recent Post</h1><a href="">View all</a></div>
-            <div class="article">
-                <div class="Post">
-                    <h2>Making a design system from scratch</h2>
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                </div>
-    
-                <div class="Post">
-                    <h2>Creating pixel perfect icons in Figma</h2>
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                 </div>
             </div>
+        </header>
+
+
+        <section class="hero">
+            <div class="photo_portrait">
+                <picture>
+                    <img src="" alt="">
+                </picture>
+            </div>
+
+
+            <div class="intro">
+                <H1>
+                    Hi, I'm <span>John Doe</span>
+                </H1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab impedit dicta et aliquid a illum,
+                    quos cumque dolorum unde veniam libero molestiae repellat! Quis unde veritatis numquam nam modi
+                    fuga.
+                </p>
+
+                <a href="">
+                    Download Resume
+                </a>
+            </div>
+
+        </section>
+
+        <section class="recent">
+            <div class="titles">
+                <h1>Recent Post</h1><a href="">View all</a>
+            </div>
+            <article class="article">
+                <div class="Post">
+                    <div>
+                        <h2>Making a design system from scratch</h2>
+                        <div class="date">
+                            <h4>12 feb 2020</h4>
+                            <p>Desing, pattern</p>
+                        </div>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat
+                            duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                </div>
+
+                <div class="Post">
+                    <div>
+                        <h2>Creating pixel perfect icons in Figma</h2>
+                        <div>
+                            <h4>12 feb 2020</h4>
+                            <p>figma, icon desing</p>
+                        </div>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat
+                            duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+
+                </div>
+            </article>
         </section>
         <section class="featured">
             <div>
@@ -61,21 +94,24 @@
                     <img src="" alt="">
                     <div>
                         <h2>Designing dashboard</h2>
-                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                 </article>
                 <article class="featuredArticle">
                     <img src="" alt="">
                     <div>
-                        <h2>Designing dashboard</h2>
-                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <h2>Vibrant Portraits of 2020</h2>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                 </article>
                 <article class="featuredArticle">
                     <img src="" alt="">
                     <div>
-                        <h2>Designing dashboard</h2>
-                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <h2>36 Days of Malayalam type</h2>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                 </article>
             </div>
@@ -91,4 +127,5 @@
         </footer>
     </main>
 </body>
+
 </html>
