@@ -65,8 +65,26 @@ body {
     display: flex;
     grid-area: post;
     background-color: #f4f4f4;
-    max-width: 50rem;
+    max-width: 60rem;
     padding: 0;
+}
+
+.post-images {
+    display: flex;
+    justify-content: center;
+    padding-right: 1rem;
+    margin-bottom: 10px;
+}
+
+.post-images img {
+    width: 15rem;
+    height: auto;
+}
+
+.post-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .post article {
@@ -95,6 +113,7 @@ body {
 
 .post .description {
     font-size: 1rem;
+    max-width: 40rem;
 }
 
 .footer {
